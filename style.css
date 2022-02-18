@@ -16,13 +16,22 @@ body{
     position:sticky;
     background-color: white;
     width: 100%;
+    height: auto;
 }
 #header .info{
     display: block;
     width:30%;
+    padding: 1em;
 }
 .info img{
     display: block;
     margin: 0;
     float: left;
+    margin-top:0.5em ;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+
+}
+.info h3{
+    padding-top: 0.8em;
 }
