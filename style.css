@@ -24,4 +24,5 @@ body{
 .info img{
     display: block;
     margin: 0;
+    float: left;
 }
