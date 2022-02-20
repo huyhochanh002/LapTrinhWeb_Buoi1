@@ -4,34 +4,67 @@
 	box-sizing: border-box;
 }
 body{
-    width: 100%;
+    width: 1280px;
     background-color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    margin: 0 auto;
 }
 .clear{
     clear: both;
 }
-#header{
-    position: -webkit-sticky;
-    position:sticky;
-    background-color: white;
-    width: 100%;
-    height: auto;
+/*cái này cho Top */
+nav{
+background-color: white;
+height: auto;
+max-width: 100%;
+overflow: hidden;
+padding: 1em;
 }
-#header .info{
-    display: block;
-    width:30%;
-    padding: 1em;
-}
-.info img{
-    display: block;
-    margin: 0;
+.info{
+    max-width: 20%;
     float: left;
-    margin-top:0.5em ;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-
 }
-.info h3{
-    padding-top: 0.8em;
+nav .info p{
+    float: left;
+    height: 40px;
+    width: auto;
+    line-height: 40px;
+    font-weight: 700;
+    padding-right: 1em;
+}
+/*cái này cho menu trên top*/
+.menu{
+    display: block;
+    width: 50%;
+    float: left;
+    margin-right: 3em;
+}
+.menu ul li{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-weight:bold;
+    text-align: center;
+    color:gray;
+}
+.menu ul li:hover{
+    background-color: gray;
+    color: white;
+    transition:1s;
+    border-radius: 0.3em;
+}
+/* nut top*/
+.nuttop ul li{
+display: inline-block;
+height: 40px;
+line-height: 40px;
+width: 100px;
+margin-right: 0.5em;
+font-weight: bold;
+text-align: center;
+border-radius: 0.3em;
+}
+.nuttop{
+    width: 100%;
 }
