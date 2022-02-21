@@ -4,10 +4,11 @@
 	box-sizing: border-box;
 }
 body{
+    margin: 0 auto !important;
     width: 1280px;
     background-color: aliceblue;
     font-family: sans-serif;
-    margin: 0 auto;
+    
 }
 .clear{
     clear: both;
@@ -35,9 +36,9 @@ nav .info p{
 /*cái này cho menu trên top*/
 .menu{
     display: block;
-    width: 50%;
+    width: 55%;
     float: left;
-    margin-right: 3em;
+    
 }
 .menu ul li{
     display: inline-block;
@@ -67,4 +68,34 @@ border-radius: 0.3em;
 }
 .nuttop{
     width: 100%;
+}
+/*Phan Maintop*/
+main #maintop div{
+    float: left;
+}
+/*Phần mainmain*/
+main #mainmain {
+    width:100%;
+    height: auto;
+}
+main #mainmain image{
+    display: block;
+}
+#mainmain .line1{
+ width: 100%;
+ text-align: center;
+}
+.line1 .app{
+    width: 25%;
+    padding: 2em;
+    display: inline-block;
+    
+}
+.line1 .app p{
+    text-align: center;
+}
+.line1 .app:hover{
+    color: white;
+    background-color: rgb(185, 247, 255);
+    border-radius: 0.5em;
 }
